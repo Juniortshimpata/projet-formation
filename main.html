@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Main</title>
+  </head>
+  <body>
+    <h2>Fiche d'inscription</h2>
+    <p>Lisez & remplissez correctement les champs</p>
+
+    <form action="">
+      <label for="nom">Nom</label>
+      <input type="text" id="nom" placeholder="entrer le nom" required />
+
+      <label for="sexe">Sexe</label>
+      <!-- <input type="radio" id="sexe" />M <input type="radio" name="" id="" /> F -->
+      <select name="" id="sexe">
+        <option value="M">Masculin</option>
+        <option value="F">Féminin</option>
+      </select>
+
+      <label for="email">Email</label>
+      <input
+        type="email"
+        name=""
+        id="email"
+        placeholder="remplissez votre email"
+      />
+
+      <label for="tel">Téléphone</label>
+      <input type="tel" placeholder="remplissez votre téléphone" />
+
+      <label for="diplome">Diplome</label>
+      <input type="checkbox" name="" id="diplome" />Diplome d'Etat
+      <input type="checkbox" name="" id="diplome" /> Diplome de Gradué
+
+      <button>Soumettre</button>
+    </form>
+  </body>
+</html>
