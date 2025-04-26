@@ -1,0 +1,93 @@
+body{
+    background-image: url(image/kyoto.jpg);
+    /* height: 350px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    
+    
+}
+
+h2{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 1.8em;
+
+}
+
+nav{
+    color: white;
+    margin-top: -5%;
+}
+
+a{
+    padding: 1%;
+    text-decoration: none;
+    color: white;
+}
+
+
+div.hero{
+    text-align: center;
+    margin: 7%;
+    padding: 6%;
+}
+
+a.btn{
+    /* border: 0.4px solid #c29d6e; */
+    box-shadow:0 3px 0 2px rgb( #5f5f75);
+    background-color: blue;
+    color:black;
+    border-radius:30px;
+    /* padding: -10%; */
+    /* margin: 6%; */
+    border: none;
+    padding: 1.3%;
+    margin-top: 10%;
+    /* display: block;
+    width: 25%; */
+}
+
+.btn:hover{
+    background-color:black;
+    cursor: pointer;
+    color: white;
+    font-style: italic;
+    font-size: 17px;
+}
+
+/* p{
+    font-size: smaller;
+    margin: 3%;
+} */
+
+footer{
+    /* border: 1px solid #c29d6e;
+    height: 400px;
+    background-color: black;
+    padding: 12px; */
+}
+
+.container{
+    text-align: center;
+    background-color: black;
+    padding: 10%;
+    color: white;    
+}
+
+
+/* Max-width: < à 725px [0-725px]
+    Min-width: > à 725px [725px-1280px]
+*/
+@media (min-width:725px){
+    h2{
+        text-align: right;
+            margin-top: 2%;
+            font-size: 1.5em;
+            color: white;
+    }
+}
+
+       

@@ -1,0 +1,62 @@
+article{
+    margin-right: 20%;
+    margin-top: 5%;
+    text-align: center;
+    
+}
+
+h1{
+    text-transform: capitalize;
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+img{
+    height: 400px;
+    width: 500px;
+    text-align: center;
+    border: 2px solid blue;
+}
+
+section{
+    text-align: center;
+    
+}
+
+
+span{
+    color: aqua;
+    text-decoration: underline;
+}
+
+blockquote{
+    border-left: 3px solid black;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-top: 5%;
+    background-color: aqua;
+    color: blue;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+header{
+    background-color: aqua;
+    text-align: center;
+    color: blue;
+    padding-top: 3%;
+ padding-bottom: 3%;
+}
+
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: aqua;
+}
