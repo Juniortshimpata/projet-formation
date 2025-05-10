@@ -1,0 +1,28 @@
+header{
+    text-align: center;
+    padding: 3%;
+    color: rgb(89, 89, 116);
+    background-color: aliceblue;
+}
+
+section{
+    margin-left:8%;
+    padding: 2%;
+    margin-top: 2%;
+}
+
+body{
+    background-color: aqua;
+}
+
+h2{
+    margin-left: 2%;
+}
+
+footer{
+    padding:3%;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+

@@ -1,0 +1,101 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Langage de Script: Javascript</title>
+  </head>
+  <body>
+    <style>
+      div {
+        text-align: center;
+        animation-name: headingRight;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        position: relative;
+      }
+
+      .btn {
+        text-decoration: none;
+        display: inline-block;
+        background-color: #171717;
+        color: #fff;
+        border: 1px solid black;
+        padding: 1rem 2rem;
+        border-radius: 30px;
+        transition: all 0.5s ease-out;
+      }
+
+      .btn:hover {
+        transform: rotateY(180deg);
+      }
+
+      @keyframes headingRight {
+        to {
+          top: 30px;
+        }
+        from {
+          top: -1000px;
+        }
+      }
+
+      section {
+        /* display: flex;
+        flex-wrap: wrap; */
+        display: grid;
+        /* grid-template-columns: 1fr 1fr 1fr; */
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+      }
+
+      @media (max-width: 756px) {
+        section {
+          /* flex-direction: column; */
+          grid-template-columns: repeat(2, 1fr);
+          grid-template-rows: 1fr;
+        }
+      }
+
+      @media (max-width: 450px) {
+        section {
+          grid-template-columns: repeat(1, 1fr);
+        }
+
+        section p:nth-child(2) {
+          animation-name: colorChange;
+          animation-duration: 3s;
+          animation-fill-mode: forwards;
+          animation-iteration-count: 0.2s;
+        }
+
+        @keyframes colorChange {
+          0% {
+            color: black;
+            opacity: 0.5;
+          }
+          100% {
+            color: red;
+            opacity: 1;
+          }
+        }
+      }
+    </style>
+
+    <div>
+      <h2>Welcome</h2>
+      <a href="#" class="btn">Read More</a>
+    </div>
+
+    <section>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia,
+        quasi?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi tenetur
+        repudiandae soluta velit reprehenderit tempora quaerat a.
+      </p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

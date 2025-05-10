@@ -1,0 +1,196 @@
+header{
+    display: flex;
+    justify-content:space-around;
+    background-color:darkslategray;
+    padding: 2%;
+}
+
+body{
+    background-color: #fff;
+}
+
+nav,ul,li,a{
+    list-style: none;
+    text-decoration: none;
+}
+
+ul,li,a{
+    display: flex;
+    justify-content: center;
+    padding-right: 10%;
+    color: black;
+    gap: 5px;
+}
+
+a:hover{
+    color: darkorange;
+    transition: all 0.6s;
+    transform: scale(1.3);
+       
+}
+
+h3{
+    color:darkorange ;
+}
+
+h3:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 1.6s;
+}
+
+span{
+    color: black;
+}
+
+.block-log{
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
+    padding:4%;
+    gap:10px;
+}
+
+h2{
+    margin-bottom:20%;
+}
+
+.text1{
+    font-style: italic;
+    font-size: 1.7em;
+}
+
+.log1{
+    padding: 3%;
+    /* border: 1PX solid black; */
+    background-color: rgb(88, 105, 121);
+    border-radius: 5%;
+}
+
+
+
+.log2{
+    padding: 3%;
+    /* border:1px solid black;  */
+    border-radius: 5%;
+    background-color: rgb(91, 112, 131);
+}
+
+.log3{
+    display: flex;
+    justify-content: center;
+    margin-bottom:8%;
+    padding-left: 5%;
+    gap:10%;
+}
+
+.log4{
+    display: flex;
+    justify-content:center;
+    padding-left:7%;
+    gap: 10%;
+    
+}
+
+.text2{
+    font-size: 1.7em;
+    font-style: italic;
+    font-weight: 700;
+    
+}
+
+.jps1{
+    width:35%;
+    border-radius: 5%;
+}
+
+.jps1:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.6s;
+}
+
+.jps2{
+    width: 35%;
+    border-radius: 5%;
+}
+
+.jps2:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.6s;
+}
+
+table,th,td{
+    border: 1px solid darkorange;
+    text-align: center;
+    padding: 5%;
+}
+
+table{
+    border-collapse: collapse; 
+    width:67%;
+}
+
+.log7,table,th,td{
+    text-align: center;
+}
+
+.log7{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.log6{
+    text-align: center;
+    padding:3%;
+   
+}
+
+footer{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: darkslategray;
+    flex-wrap: wrap;
+}
+
+.log10{
+    color:darkorange;
+}
+
+
+
+    
+
+
+
+
+    
+    
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+
+
+    
+
+
+
