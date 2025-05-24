@@ -10,10 +10,10 @@ Variables: let, var ,const
 Type: Number, string
 */
 const nom = "jean"; 
-let prix = 10;
+export let prix = 10;
 var montant = 250;
 
-prix = 25;
+// prix = 25;
 montant = 150;
 // nom = "paul";
 
